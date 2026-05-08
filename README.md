@@ -23,7 +23,7 @@ Before running the tests, ensure you have the following:
 
 1. **Clone the Repository:**
    ```powershell
-   git clone [https://github.com/SRK1909/qa-betting-assignment.git](https://github.com/SRK1909/qa-betting-assignment.git)
+   git clone https://github.com/SRK1909/qa-betting-assignment.git
    cd qa-betting-assignment
     ```
 
@@ -35,7 +35,7 @@ Before running the tests, ensure you have the following:
 3.  **Configure Environment Variables:**
     Create a `.env` file in the root directory and add your credentials:
     ```text
-    BASE_URL=[https://qae-assignment-tau.vercel.app/](https://qae-assignment-tau.vercel.app/)
+    BASE_URL=https://qae-assignment-tau.vercel.app/
     USER_ID=your-unique-candidate-id-here
     ```
 
@@ -46,17 +46,19 @@ Before running the tests, ensure you have the following:
 The framework uses **Pytest** for execution. You can run tests in parallel or individually.
 
 ### **Run Full Suite (UI + API)**
-
+```powershell
 python -m pytest tests/ -v -s
+```
 
 ### **Run UI E2E Test Only**
-
+```powershell
 python -m pytest tests/test_ui_e2e.py -v -s
+```
 
 ### **Run API Test Only**
-
+```powershell
 python -m pytest tests/test_api.py -v -s
-
+```
 
 ## 5. Interpreting Results
 UI Test: Validates the successful placement of a bet and the appearance of the success receipt modal per the feature specification.
