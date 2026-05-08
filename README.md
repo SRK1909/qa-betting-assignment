@@ -39,8 +39,6 @@ Before running the tests, ensure you have the following:
     USER_ID=your-unique-candidate-id-here
     ```
 
----
-
 ## 4. Running the Automation
 
 The framework uses **Pytest** for execution. You can run tests in parallel or individually.
