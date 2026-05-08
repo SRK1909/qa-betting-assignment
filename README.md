@@ -20,24 +20,20 @@ Pip (Python package manager)
 
 ## 3. Installation & Setup
 ### 3.1 Clone the Repository
-   ```powershell
-   git clone https://github.com/SRK1909/qa-betting-assignment.git
-   cd qa-betting-assignment
-    ```
----
+```powershell
+git clone https://github.com/SRK1909/qa-betting-assignment.git
+cd qa-betting-assignment
+```
 ### 3.2 Install Dependencies
-   ```powershell
-    pip install -r requirements.txt
-    ```
----
+```powershell
+pip install -r requirements.txt
+```
 ### 3.3 Configure Environment Variables
-    Create a `.env` file in the root directory and add your credentials:
-    ```
-    BASE_URL=https://qae-assignment-tau.vercel.app/
-    USER_ID=your-unique-candidate-id-here
-    ```
----
-
+Create a `.env` file in the root directory and add your credentials:
+```
+BASE_URL=https://qae-assignment-tau.vercel.app/
+USER_ID=your-unique-candidate-id-here
+```
 ## 4. Running the Automation
 The framework uses Pytest for execution. You can run the entire suite or isolate specific layers.
 
