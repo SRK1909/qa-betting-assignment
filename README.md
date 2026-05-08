@@ -23,12 +23,12 @@ Before running the tests, ensure you have the following:
 
 1. **Clone the Repository:**
    ```powershell
-   git clone [https://github.com/SRK1909/qa-betting-assignment.git]
+   git clone [https://github.com/SRK1909/qa-betting-assignment.git](https://github.com/SRK1909/qa-betting-assignment.git)
    cd qa-betting-assignment
     ```
 
 2.  **Install Dependencies:**
-   
+   ```powershell
     pip install -r requirements.txt
     ```
 
@@ -36,7 +36,7 @@ Before running the tests, ensure you have the following:
     Create a `.env` file in the root directory and add your credentials:
     ```text
     BASE_URL=[https://qae-assignment-tau.vercel.app/](https://qae-assignment-tau.vercel.app/)
-    USER_ID=candidate-c8Lm5Tr9VX
+    USER_ID=your-unique-candidate-id-here
     ```
 
 ---
