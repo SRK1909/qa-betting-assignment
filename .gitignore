@@ -1,0 +1,26 @@
+# Security
+.env
+
+# Python Virtual Environment
+venv/
+env/
+
+# Cache and compiled files
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# OS generated files
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+.env
+
+# Testing
+.pytest_cache/

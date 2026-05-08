@@ -1,0 +1,8 @@
+{
+    "ui_test_data": {
+        "valid_stake": 4.50
+    },
+    "api_test_data": {
+        "min_stake": 1.01
+    }
+}
