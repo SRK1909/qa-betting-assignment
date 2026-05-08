@@ -21,10 +21,10 @@ Before running the tests, ensure you have the following:
 
 ## 3. Installation & Setup
 
-1.  **Clone the Repository:**
-    
-    git clone <your-repository-url>
-    cd qa-betting-assignment
+1. **Clone the Repository:**
+   ```powershell
+   git clone [https://github.com/SRK1909/qa-betting-assignment.git]
+   cd qa-betting-assignment
     ```
 
 2.  **Install Dependencies:**
@@ -65,15 +65,21 @@ API Test (Expected Failure): This test is specifically designed to catch BUG-003
 
 ## 6. Directory Structure
 qa-betting-assignment/
-├── assets/             # Manual testing evidence (screenshots)
-├── pages/              # Page Object Model locators and actions
-├── tests/              # UI and API test scripts
-├── .env                # Environment variables (URL, User ID)
-├── .gitignore          # Prevents tracking of __pycache__ and secrets
-├── requirements.txt    # Python library dependencies
-├── test_data.json      # Externalized test parameters (Stake values)
-├── test_plan.md        # Part A: Strategic Manual Test Plan
-├── execution_and_bugs.md # Part A: Bug Reports and Results
+├── assets/                 # Manual testing evidence (screenshots)
+├── pages/                  # Page Object Model locators and actions
+│   ├── __init__.py
+│   └── betting_page.py
+├── tests/                  # UI and API test scripts
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_api.py
+│   └── test_ui_e2e.py
+├── .env                    # Environment variables (URL, User ID)
+├── .gitignore              # Prevents tracking of pycache and secrets
+├── requirements.txt        # Python library dependencies
+├── test_data.json          # Externalized test parameters (Stake values)
+├── test_plan.md            # Part A: Strategic Manual Test Plan
+├── execution_and_bugs.md   # Part A: Bug Reports and Results
 └── strategy_and_recommendations.md # Part C: Strategy & Scaling
 
 
