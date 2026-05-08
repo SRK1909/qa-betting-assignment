@@ -38,6 +38,7 @@ Before running the tests, ensure you have the following:
     BASE_URL=https://qae-assignment-tau.vercel.app/
     USER_ID=your-unique-candidate-id-here
     ```
+---
 
 ## 4. Running the Automation
 
